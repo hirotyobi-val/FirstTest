@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7A6A709166739D8006AFDB8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7A6A708166739D8006AFDB8 /* main.cpp */; };
+		C7A6A70B166739D8006AFDB8 /* SunVisor.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C7A6A70A166739D8006AFDB8 /* SunVisor.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C7A6A702166739D8006AFDB8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				C7A6A70B166739D8006AFDB8 /* SunVisor.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C7A6A704166739D8006AFDB8 /* SunVisor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SunVisor; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A6A708166739D8006AFDB8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C7A6A70A166739D8006AFDB8 /* SunVisor.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SunVisor.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7A6A701166739D8006AFDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7A6A6F9166739D8006AFDB8 = {
+			isa = PBXGroup;
+			children = (
+				C7A6A707166739D8006AFDB8 /* SunVisor */,
+				C7A6A705166739D8006AFDB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7A6A705166739D8006AFDB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7A6A704166739D8006AFDB8 /* SunVisor */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7A6A707166739D8006AFDB8 /* SunVisor */ = {
+			isa = PBXGroup;
+			children = (
+				C7A6A708166739D8006AFDB8 /* main.cpp */,
+				C7A6A70A166739D8006AFDB8 /* SunVisor.1 */,
+			);
+			path = SunVisor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7A6A703166739D8006AFDB8 /* SunVisor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7A6A70E166739D8006AFDB8 /* Build configuration list for PBXNativeTarget "SunVisor" */;
+			buildPhases = (
+				C7A6A700166739D8006AFDB8 /* Sources */,
+				C7A6A701166739D8006AFDB8 /* Frameworks */,
+				C7A6A702166739D8006AFDB8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunVisor;
+			productName = SunVisor;
+			productReference = C7A6A704166739D8006AFDB8 /* SunVisor */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7A6A6FB166739D8006AFDB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Sho Hiroto";
+			};
+			buildConfigurationList = C7A6A6FE166739D8006AFDB8 /* Build configuration list for PBXProject "SunVisor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7A6A6F9166739D8006AFDB8;
+			productRefGroup = C7A6A705166739D8006AFDB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7A6A703166739D8006AFDB8 /* SunVisor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7A6A700166739D8006AFDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7A6A709166739D8006AFDB8 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C7A6A70C166739D8006AFDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C7A6A70D166739D8006AFDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C7A6A70F166739D8006AFDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7A6A710166739D8006AFDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7A6A6FE166739D8006AFDB8 /* Build configuration list for PBXProject "SunVisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A6A70C166739D8006AFDB8 /* Debug */,
+				C7A6A70D166739D8006AFDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7A6A70E166739D8006AFDB8 /* Build configuration list for PBXNativeTarget "SunVisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A6A70F166739D8006AFDB8 /* Debug */,
+				C7A6A710166739D8006AFDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7A6A6FB166739D8006AFDB8 /* Project object */;
+}
